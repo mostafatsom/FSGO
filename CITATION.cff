@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use FSGO, please cite the associated paper."
+title: "Flexible Stochastic Gradient Optimizer (FSGO)"
+type: software
+authors:
+  - family-names: "Ilchi Ghazaan"
+    given-names: "M."
+  - family-names: "Sharifi"
+    given-names: "M."
+version: "1.0.0"
+license: MIT
+preferred-citation:
+  type: article
+  title: "A Two-Phase Metamodel-Driven Approach for Topology and Size Optimization of Truss Structures"
+  authors:
+    - family-names: "Ilchi Ghazaan"
+      given-names: "M."
+    - family-names: "Sharifi"
+      given-names: "M."
+  journal: "International Journal of Optimization in Civil Engineering"
+  year: 2025
+  volume: 15
+  issue: 2
+  start: 181
+  end: 201
+  doi: "10.22068/ijoce.2025.15.2.630"

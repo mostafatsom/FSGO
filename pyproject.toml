@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fsgo-optimizer"
+version = "1.0.0"
+description = "Standalone Python implementation of the Flexible Stochastic Gradient Optimizer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26"]
+license = "MIT"
+authors = [
+  {name = "M. Ilchi Ghazaan"},
+  {name = "M. Sharifi"}
+]
+keywords = [
+  "optimization",
+  "stochastic optimization",
+  "gradient optimization",
+  "global optimization",
+  "scientific computing"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[tool.setuptools]
+py-modules = ["fsgo"]
