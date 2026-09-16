@@ -176,6 +176,11 @@ Python >= 3.10
 NumPy >= 1.26
 ```
 
+## Related project
+
+FSGO is used as the optimization search engine in
+[TPMO](https://github.com/mostafatsom/TPMO).
+
 ## Citation
 
 GitHub reads citation metadata from [`CITATION.cff`](CITATION.cff).
